@@ -7,6 +7,7 @@ def on_press(key):
     global loop
     if key == keyboard.Key.delete:
         print("Exiting program...")
+        pyautogui.keyUp(target_key)
         loop = False
         return False
     try:
