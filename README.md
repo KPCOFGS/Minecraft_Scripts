@@ -6,7 +6,7 @@ A collection of Minecraft scripts
 
 You can download the script using `git`
 ```bash
-git clone https://github.com/KPCOFGS/Audiowave_Display.git
+https://github.com/KPCOFGS/Minecraft_Scripts.git
 ```
 You can install the dependencies using pip:
 ```bash
