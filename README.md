@@ -15,6 +15,7 @@ pip install -r requirements.txt
 ## Scripts:
 
 [AutoClicker]()
+
 [AutoRun]()
 
 ## License
