@@ -14,9 +14,9 @@ pip install -r requirements.txt
 ```
 ## Scripts:
 
-[AutoClicker]()
+[AutoClicker](AutoClicker)
 
-[AutoRun]()
+[AutoRun](AutoRun)
 
 ## License
 This repository is licensed under the [Unlicense](LICENSE)
