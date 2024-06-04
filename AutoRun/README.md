@@ -8,4 +8,4 @@
 
 ## Example Usage
 
-python3 AutoRun.py w ctrl
+`python3 AutoRun.py w ctrl`
