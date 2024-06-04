@@ -5,12 +5,12 @@ import argparse
 
 def on_press(key):
     global loop
-    if key == keyboard.Key.delete:
-        print("Exiting program...")
-        pyautogui.keyUp(target_key)
-        loop = False
-        return False
     try:
+        if key == keyboard.Key.delete:
+            print("Exiting program...")
+            pyautogui.keyUp(target_key)
+            loop = False
+            return False
         if key.char == args.start_key:
             pyautogui.keyDown(target_key)
     except AttributeError:
