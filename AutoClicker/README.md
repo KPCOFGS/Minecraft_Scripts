@@ -6,6 +6,8 @@
 
 `interval` Required. Time between each click
 
+`mouse` Required. Click left or right
+
 ## Example Usage
 
-`python3 AutoClicker.py ] 0.1`
+`python3 AutoClicker.py ] 0.1 left`
