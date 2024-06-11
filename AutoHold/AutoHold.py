@@ -21,7 +21,7 @@ def on_press(key):
 
 def on_release(key):
     pass
-parser = argparse.ArgumentParser(description='Auto Clicker with pynput')
+parser = argparse.ArgumentParser(description='AutoHold with pynput')
 parser.add_argument('start_key', type=str, help='Key to start and stop holding')
 parser.add_argument('mouse', type=str, help='Left or right mouse hold')
 args = parser.parse_args()
