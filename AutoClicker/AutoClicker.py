@@ -21,7 +21,6 @@ def on_press(key):
 def on_release(key):
     pass
 
-print("For start key and stop key, use one letter, number, or symbol only. No combinations")
 parser = argparse.ArgumentParser(description='Auto Clicker with pynput')
 parser.add_argument('start_key', type=str, help='Key to start and stop clicking')
 parser.add_argument('interval', type=float, help='Time interval between clicks')
